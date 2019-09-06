@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/qianxulsj/config
+          search-paths: eric
+      label: master
+
+server:
+  port: 8888
